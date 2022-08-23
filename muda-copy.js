@@ -1,6 +1,6 @@
-document.querySelector('.copyright-text').innerHTML = `<p><a href="http://seusiteonline.com/" target="_blank">© 2021 | Seu Site Online</a></p>`;
+document.querySelector('.copyright-text').innerHTML = `<p><a href="http://seusiteonline.com/" target="_blank">© 2022 | Seu Site Online</a></p>`;
 
-document.querySelector('.top-header-text').innerHTML = `<p>R. Pastor Gustav Nordlund, 337 - São José, Novo Hamburgo | ferragemdoxandi@gmail.com | 51 99545.8366 </p>
+document.querySelector('.top-header-text').innerHTML = `<p>R. Pastor Gustav Nordlund, 337 - São José, Novo Hamburgo | ferragemdoxandi@gmail.com | 51 99545.8366  / 51 3556.0298</p>
 <!-- / 51 3556.0298 -->`;
 
 document.querySelector('.social-links').innerHTML = `<li>
