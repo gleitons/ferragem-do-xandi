@@ -16,6 +16,40 @@ const substituiCorpo = todoCorpo.replace(/https:\/\/ferragemxandi.com.br/gi, '')
 document.querySelector('body').innerHTML = substituiCorpo
 
 
+async function produtos() {
+    const response = await fetch('/produto')
+    const data = await response.json()
+    const testApp = document.querySelector('#content')
+    const enderecoLink = location.href
+    const divTexto = document.createElement('div')
+    divTexto.classList.add('produtosOnline')
+    data.map((p) => {    
+        if(enderecoLink.includes('epis')){
+            
+        }
+        if(p.categoria != 'estofados'){
+            const divProduto = document.createElement('div')    
+            divProduto.innerHTML = p.codigo
+            divTexto.appendChild(divProduto)    
+            testApp.appendChild(divTexto)
+        }   
+        // const divProduto = document.createElement('div')    
+        // divProduto.innerHTML = p.codigo
+        // divTexto.appendChild(divProduto)
+
+        // testApp.appendChild(divTexto)
+
+    })
+}
+
+setTimeout('produtos()', 1000)
+
+
+
+
+
+
+
 
 
 

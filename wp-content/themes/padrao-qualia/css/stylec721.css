@@ -23,6 +23,7 @@ html {
 }
 body {
 	margin: 0;
+	
 }
 a {
 	background: transparent;
@@ -32,6 +33,11 @@ a:focus {
 }
 a:active,a:hover {
 	outline: 0;
+}
+.produtosOnline  {
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
 }
 h1 {
 	font-size: 2em;

@@ -1,0 +1,29 @@
+[
+  {
+    "codigo": "<iframe sandbox='allow-popups allow-scripts allow-modals allow-forms allow-same-origin' style='width:120px;height:240px;' marginwidth='0' marginheight='0' scrolling='no' frameborder='0' src='//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=desconto06a-20&language=pt_BR&marketplace=amazon&region=BR&placement=B076N2S8FV&asins=B076N2S8FV&linkId=0bf9f6c242f05e67f16aceb408680613&show_border=true&link_opens_in_new_window=true'></iframe>",
+    "nome": "Sparta Maleta de ferramentas kit com 129 peças",
+    "categoria": "Kits de Ferramentas",
+    "info": "",
+    "preco": "",
+    "imagem": "",
+    "link": ""
+  },
+  {
+    "codigo": "<iframe sandbox='allow-popups allow-scripts allow-modals allow-forms allow-same-origin' style='width:120px;height:240px;' marginwidth='0' marginheight='0' scrolling='no' frameborder='0' src='//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=desconto06a-20&language=pt_BR&marketplace=amazon&region=BR&placement=B09KK327Y7&asins=B09KK327Y7&linkId=f59c05bfb757d0aec02c0619d4943d2d&show_border=true&link_opens_in_new_window=true'></iframe>",
+    "nome": "Chave de Grifo Tipo Stillson 8' Rayco",
+    "categoria": "Kits de Ferramentas",
+    "info": "",
+    "preco": "",
+    "imagem": "",
+    "link": ""
+  },
+  {
+    "codigo": "<iframe sandbox='allow-popups allow-scripts allow-modals allow-forms allow-same-origin' style='width:120px;height:240px;' marginwidth='0' marginheight='0' scrolling='no' frameborder='0' src='//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=desconto06a-20&language=pt_BR&marketplace=amazon&region=BR&placement=B076M8G7VT&asins=B076M8G7VT&linkId=500f4a8d2ced203481be6552fc477ae4&show_border=true&link_opens_in_new_window=true'></iframe>",
+    "nome": "Tramontina 41191165, Maleta com Ferramentas 65 Peças",
+    "categoria": "Ferramentas Manuais",
+    "info": "",
+    "preco": "",
+    "imagem": "",
+    "link": ""
+  }
+]

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .iptdados {
+            line-height: 3em;
+            width: 600px;
+        }
+        input {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="iptdados"> 
+        <input type="text" name="" placeholder="codigo" id="codigo"><br>
+        <input type="text" name="" placeholder="nome" id="nome"><br>
+        <input type="text" name="" placeholder="categoria" id="categoria"><br>
+        <input type="text" name="" placeholder="preco" id="preco"><br>
+        <input type="text" name="" placeholder="Imagem" id="imagem"><br>
+        <input type="text" name="" placeholder="informacao" id="info"><br>
+        <input type="text" name="" placeholder="Link" id="link"><br>
+        <button>Alterar</button> <br>
+        <textarea name="" id="codigogerado" cols="60" rows="20"></textarea>
+
+    </div>
+    <script>
+        document.querySelector('button').addEventListener('click', () => {
+            const texto = document.querySelector('#codigo').value
+            const alterado = texto.replace(/\"/gi, '\'')
+
+
+
+            codigogerado.value = `{"codigo": "${alterado}","nome": "${nome.value}","categoria": "${categoria.value}","info": "${info.value}","preco": "${preco.value}","imagem": "${imagem.value}","link": "${link}"}`
+        })
+    </script>
+</body>
+
+</html>
